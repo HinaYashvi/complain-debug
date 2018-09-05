@@ -311,6 +311,38 @@ module.exports = [
     "runs": true
   },
   {
+    "id": "cordova-plugin-file-transfer.FileTransferError",
+    "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
+    "pluginId": "cordova-plugin-file-transfer",
+    "clobbers": [
+      "window.FileTransferError"
+    ]
+  },
+  {
+    "id": "cordova-plugin-file-transfer.FileTransfer",
+    "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
+    "pluginId": "cordova-plugin-file-transfer",
+    "clobbers": [
+      "window.FileTransfer"
+    ]
+  },
+  {
+    "id": "cordova-plugin-media.MediaError",
+    "file": "plugins/cordova-plugin-media/www/MediaError.js",
+    "pluginId": "cordova-plugin-media",
+    "clobbers": [
+      "window.MediaError"
+    ]
+  },
+  {
+    "id": "cordova-plugin-media.Media",
+    "file": "plugins/cordova-plugin-media/www/Media.js",
+    "pluginId": "cordova-plugin-media",
+    "clobbers": [
+      "window.Media"
+    ]
+  },
+  {
     "id": "cordova-plugin-media-capture.CaptureAudioOptions",
     "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
     "pluginId": "cordova-plugin-media-capture",
@@ -377,38 +409,6 @@ module.exports = [
     "file": "plugins/cordova-plugin-media-capture/www/android/init.js",
     "pluginId": "cordova-plugin-media-capture",
     "runs": true
-  },
-  {
-    "id": "cordova-plugin-media.MediaError",
-    "file": "plugins/cordova-plugin-media/www/MediaError.js",
-    "pluginId": "cordova-plugin-media",
-    "clobbers": [
-      "window.MediaError"
-    ]
-  },
-  {
-    "id": "cordova-plugin-media.Media",
-    "file": "plugins/cordova-plugin-media/www/Media.js",
-    "pluginId": "cordova-plugin-media",
-    "clobbers": [
-      "window.Media"
-    ]
-  },
-  {
-    "id": "cordova-plugin-file-transfer.FileTransferError",
-    "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
-    "pluginId": "cordova-plugin-file-transfer",
-    "clobbers": [
-      "window.FileTransferError"
-    ]
-  },
-  {
-    "id": "cordova-plugin-file-transfer.FileTransfer",
-    "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
-    "pluginId": "cordova-plugin-file-transfer",
-    "clobbers": [
-      "window.FileTransfer"
-    ]
   }
 ];
 module.exports.metadata = 
@@ -424,11 +424,11 @@ module.exports.metadata =
   "cordova-plugin-inappbrowser": "1.7.2",
   "cordova-plugin-network-information": "1.3.4",
   "cordova-plugin-vibration": "2.1.6",
-  "cordova-plugin-file": "6.0.1",
-  "cordova-plugin-media-capture": "3.0.2",
-  "cordova-plugin-media": "5.0.2",
+  "cordova-plugin-whitelist": "1.3.3",
+  "cordova-plugin-file": "6.0.0",
   "cordova-plugin-file-transfer": "1.7.1",
-  "cordova-plugin-whitelist": "1.3.3"
+  "cordova-plugin-media": "5.0.2",
+  "cordova-plugin-media-capture": "3.0.2"
 };
 // BOTTOM OF METADATA
 });

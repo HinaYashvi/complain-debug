@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Complaint Manager",
-  "short_name": "Complaint Manager",
+  "name": "Complain Manager",
+  "short_name": "Complain Manager",
   "version": "com.phonegap.complaintmanager",
-  "description": "Hello World sample application that responds to the deviceready event.",
+  "description": "Complain Manager.",
   "author": "PhoneGap Team",
   "icons": [
     {

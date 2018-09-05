@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
-        "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
-    },
-    {
         "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_screen.png.flat",
         "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
     },
     {
         "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_remove.png.flat",
@@ -20,12 +20,12 @@
         "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
     },
     {
-        "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
-        "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
-    },
-    {
         "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon.png.flat",
         "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
     },
     {
         "merged": "C:\\xampp\\htdocs\\complaint_manager\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",

@@ -7,11 +7,7 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-media": {
-      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-file": {
@@ -20,7 +16,11 @@
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-media": {
+      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     }
   },

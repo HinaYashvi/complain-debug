@@ -346,6 +346,54 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
+        "id": "cordova-plugin-file-transfer.FileTransferError",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
+        "id": "cordova-plugin-file-transfer.FileTransfer",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-file-transfer/www/browser/FileTransfer.js",
+        "id": "cordova-plugin-file-transfer.BrowserFileTransfer",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-media/www/MediaError.js",
+        "id": "cordova-plugin-media.MediaError",
+        "pluginId": "cordova-plugin-media",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-media/www/Media.js",
+        "id": "cordova-plugin-media.Media",
+        "pluginId": "cordova-plugin-media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-media/www/browser/Media.js",
+        "id": "cordova-plugin-media.BrowserMedia",
+        "pluginId": "cordova-plugin-media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
         "id": "cordova-plugin-media-capture.CaptureAudioOptions",
         "pluginId": "cordova-plugin-media-capture",
@@ -412,54 +460,6 @@ module.exports = [
         "id": "cordova-plugin-media-capture.CaptureProxy",
         "pluginId": "cordova-plugin-media-capture",
         "runs": true
-    },
-    {
-        "file": "plugins/cordova-plugin-media/www/MediaError.js",
-        "id": "cordova-plugin-media.MediaError",
-        "pluginId": "cordova-plugin-media",
-        "clobbers": [
-            "window.MediaError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-media/www/Media.js",
-        "id": "cordova-plugin-media.Media",
-        "pluginId": "cordova-plugin-media",
-        "clobbers": [
-            "window.Media"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-media/www/browser/Media.js",
-        "id": "cordova-plugin-media.BrowserMedia",
-        "pluginId": "cordova-plugin-media",
-        "clobbers": [
-            "window.Media"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
-        "id": "cordova-plugin-file-transfer.FileTransferError",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransferError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
-        "id": "cordova-plugin-file-transfer.FileTransfer",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransfer"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-file-transfer/www/browser/FileTransfer.js",
-        "id": "cordova-plugin-file-transfer.BrowserFileTransfer",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransfer"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -476,11 +476,11 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.3.4",
     "cordova-plugin-vibration": "2.1.6",
     "cordova-plugin-call-number": "1.0.1",
-    "cordova-plugin-file": "6.0.1",
-    "cordova-plugin-media-capture": "3.0.2",
-    "cordova-plugin-media": "5.0.2",
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-file": "6.0.0",
     "cordova-plugin-file-transfer": "1.7.1",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-media": "5.0.2",
+    "cordova-plugin-media-capture": "3.0.2"
 }
 // BOTTOM OF METADATA
 });

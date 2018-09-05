@@ -30,27 +30,27 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
         <param name="onload" value="true" />
     </feature>
     <allow-navigation href="cdvfile:*" />
-    <feature name="Capture">
-        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
     </feature>
-    <feature name="FileTransfer">
-        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
     </feature>
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
-    <name>Complaint Manager</name>
+    <name>Complain Manager</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Complain Manager.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
