@@ -59,6 +59,7 @@ function checkConnection() {
 
 // ------------------------------------------- C H E C K  S T O R A G E ------------------------------- //
 function checkStorage(){  
+
   pictureSource = navigator.camera.PictureSourceType;
   destinationType = navigator.camera.DestinationType;
   checkConnection();  
@@ -127,6 +128,7 @@ function checklogin(){
 // ------------------------------------------- D A S H B O A R D ----------------------------------------- //
 $$(document).on('page:init', '.page[data-name="dashboard"]', function (e) {
   checkConnection();
+  //console.log(cordova.file);
   app.preloader.show(); 
   //app.dialog.preloader();
   var sess_u_id = window.localStorage.getItem("session_u_id");

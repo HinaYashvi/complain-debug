@@ -22,6 +22,12 @@
     "cordova-plugin-dialogs": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
@@ -31,6 +37,12 @@
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
@@ -38,18 +50,6 @@
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-media": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     }
   },
