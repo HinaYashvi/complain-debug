@@ -1,5 +1,5 @@
 -- Merging decision tree log ---
-provider#android.support.v4.content.FileProvider
+provider#org.apache.cordova.camera.FileProvider
 INJECTED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
 	android:grantUriPermissions
 		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
@@ -9,7 +9,7 @@ INJECTED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\A
 	android:exported
 		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
 	android:name
-		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:12:127-181
+		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
 manifest
 ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:2:1-30:12
@@ -161,8 +161,8 @@ ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\Andr
 	android:name
 		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:29:22-63
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:13:13-116
+ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
 	android:resource
-		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:13:75-113
+		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
 	android:name
 		ADDED from C:\xampp\htdocs\complaint_manager\platforms\android\app\src\main\AndroidManifest.xml:13:24-74

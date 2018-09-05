@@ -1,5 +1,5 @@
 {
-  "_from": "cordova-plugin-call-number",
+  "_from": "cordova-plugin-call-number@latest",
   "_id": "cordova-plugin-call-number@1.0.1",
   "_inBundle": false,
   "_integrity": "sha1-3ZZDv6KzNKbGix5kqpYp5iJ8WfE=",
@@ -8,10 +8,10 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "cordova-plugin-call-number",
+    "raw": "cordova-plugin-call-number@latest",
     "name": "cordova-plugin-call-number",
     "escapedName": "cordova-plugin-call-number",
-    "rawSpec": "",
+    "rawSpec": "latest",
     "saveSpec": null,
     "fetchSpec": "latest"
   },
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-call-number/-/cordova-plugin-call-number-1.0.1.tgz",
   "_shasum": "dd9643bfa2b334a6c68b1e64aa9629e6227c59f1",
-  "_spec": "cordova-plugin-call-number",
+  "_spec": "cordova-plugin-call-number@latest",
   "_where": "C:\\xampp\\htdocs\\complaint_manager",
   "author": "",
   "bugs": {

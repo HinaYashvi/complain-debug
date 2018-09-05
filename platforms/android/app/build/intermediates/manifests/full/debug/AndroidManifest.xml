@@ -60,13 +60,13 @@
         </activity>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="org.apache.cordova.camera.FileProvider"
             android:authorities="com.phonegap.complaintmanager.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths" />
+                android:resource="@xml/camera_provider_paths" />
         </provider>
     </application>
 

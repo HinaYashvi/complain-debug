@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-media@5.0.2",
+  "_from": "cordova-plugin-media@latest",
   "_id": "cordova-plugin-media@5.0.2",
   "_inBundle": false,
   "_integrity": "sha1-M0V2nAfmpGpxyX4btDTazKXI2As=",
   "_location": "/cordova-plugin-media",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "cordova-plugin-media@5.0.2",
+    "raw": "cordova-plugin-media@latest",
     "name": "cordova-plugin-media",
     "escapedName": "cordova-plugin-media",
-    "rawSpec": "5.0.2",
+    "rawSpec": "latest",
     "saveSpec": null,
-    "fetchSpec": "5.0.2"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-media/-/cordova-plugin-media-5.0.2.tgz",
   "_shasum": "3345769c07e6a46a71c97e1bb434dacca5c8d80b",
-  "_spec": "cordova-plugin-media@5.0.2",
+  "_spec": "cordova-plugin-media@latest",
   "_where": "C:\\xampp\\htdocs\\complaint_manager",
   "author": {
     "name": "Apache Software Foundation"

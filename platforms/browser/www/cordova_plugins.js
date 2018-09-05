@@ -15,36 +15,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-        "id": "cordova-plugin-camera.Camera",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "Camera"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-        "id": "cordova-plugin-camera.CameraPopoverOptions",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "CameraPopoverOptions"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/Camera.js",
-        "id": "cordova-plugin-camera.camera",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "navigator.camera"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/src/browser/CameraProxy.js",
-        "id": "cordova-plugin-camera.CameraProxy",
-        "pluginId": "cordova-plugin-camera",
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-device/www/device.js",
         "id": "cordova-plugin-device.device",
         "pluginId": "cordova-plugin-device",
@@ -141,20 +111,18 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
-        "id": "cordova-plugin-vibration.notification",
-        "pluginId": "cordova-plugin-vibration",
-        "merges": [
-            "navigator.notification",
-            "navigator"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-vibration/src/browser/Vibration.js",
         "id": "cordova-plugin-vibration.Vibration",
         "pluginId": "cordova-plugin-vibration",
         "merges": [
-            "navigator.notification",
+            "navigator"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+        "id": "cordova-plugin-vibration.notification",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
             "navigator"
         ]
     },
@@ -165,6 +133,36 @@ module.exports = [
         "clobbers": [
             "call"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+        "id": "cordova-plugin-camera.Camera",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "Camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+        "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "CameraPopoverOptions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/Camera.js",
+        "id": "cordova-plugin-camera.camera",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "navigator.camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/src/browser/CameraProxy.js",
+        "id": "cordova-plugin-camera.CameraProxy",
+        "pluginId": "cordova-plugin-camera",
+        "runs": true
     },
     {
         "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
@@ -465,19 +463,19 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-battery-status": "1.2.5",
-    "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-camera": "2.4.1",
-    "cordova-plugin-device": "1.1.7",
-    "cordova-plugin-dialogs": "1.3.4",
-    "cordova-plugin-geolocation": "2.4.3",
-    "cordova-plugin-globalization": "1.0.9",
-    "cordova-plugin-inappbrowser": "1.7.2",
-    "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-vibration": "2.1.6",
+    "cordova-plugin-battery-status": "2.0.2",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-dialogs": "2.0.1",
+    "cordova-plugin-globalization": "1.11.0",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-network-information": "2.0.1",
+    "cordova-plugin-vibration": "3.1.0",
     "cordova-plugin-call-number": "1.0.1",
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-file": "6.0.0",
+    "cordova-plugin-geolocation": "4.0.1",
+    "cordova-plugin-camera": "4.0.3",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-file": "6.0.1",
     "cordova-plugin-file-transfer": "1.7.1",
     "cordova-plugin-media": "5.0.2",
     "cordova-plugin-media-capture": "3.0.2"

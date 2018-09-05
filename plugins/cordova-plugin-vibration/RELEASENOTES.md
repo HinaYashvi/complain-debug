@@ -20,6 +20,18 @@
 -->
 # Release Notes
 
+### 3.1.0 (Apr 12, 2018)
+* [CB-14022](https://issues.apache.org/jira/browse/CB-14022) documented **Android** quirk with vibration
+* CB-13892:(all) Remove `navigator.notification`
+
+### 3.0.1 (Dec 27, 2017)
+* [CB-13711](https://issues.apache.org/jira/browse/CB-13711) Fix to allow 3.0.0 version install (#63)
+
+### 3.0.0 (Dec 15, 2017)
+* [CB-13666](https://issues.apache.org/jira/browse/CB-13666) : Removed deprecated platforms
+* Removed deprecated components and bumped version
+* [CB-13045](https://issues.apache.org/jira/browse/CB-13045) Removed **Android** implementation and Updated `README`
+
 ### 2.1.6 (Nov 06, 2017)
 * [CB-12895](https://issues.apache.org/jira/browse/CB-12895) added `eslint` and removed `jshint`
 * [CB-12847](https://issues.apache.org/jira/browse/CB-12847) added `bugs` entry to `package.json`.

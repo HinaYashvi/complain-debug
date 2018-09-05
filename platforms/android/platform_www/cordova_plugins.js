@@ -400,34 +400,25 @@ module.exports = [
     "clobbers": [
       "Connection"
     ]
-  },
-  {
-    "id": "cordova-plugin-vibration.notification",
-    "file": "plugins/cordova-plugin-vibration/www/vibration.js",
-    "pluginId": "cordova-plugin-vibration",
-    "merges": [
-      "navigator.notification",
-      "navigator"
-    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "cordova-plugin-battery-status": "1.2.5",
+  "cordova-plugin-battery-status": "2.0.2",
   "cordova-plugin-call-number": "1.0.1",
-  "cordova-plugin-camera": "2.4.1",
-  "cordova-plugin-device": "1.1.7",
-  "cordova-plugin-dialogs": "1.3.4",
-  "cordova-plugin-file": "6.0.0",
+  "cordova-plugin-camera": "4.0.3",
+  "cordova-plugin-device": "2.0.2",
+  "cordova-plugin-dialogs": "2.0.1",
+  "cordova-plugin-file": "6.0.1",
   "cordova-plugin-file-transfer": "1.7.1",
-  "cordova-plugin-geolocation": "2.4.3",
-  "cordova-plugin-globalization": "1.0.9",
-  "cordova-plugin-inappbrowser": "1.7.2",
+  "cordova-plugin-geolocation": "4.0.1",
+  "cordova-plugin-globalization": "1.11.0",
+  "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-plugin-media": "5.0.2",
   "cordova-plugin-media-capture": "3.0.2",
-  "cordova-plugin-network-information": "1.3.4",
-  "cordova-plugin-vibration": "2.1.6",
+  "cordova-plugin-network-information": "2.0.1",
+  "cordova-plugin-vibration": "3.1.0",
   "cordova-plugin-whitelist": "1.3.3"
 };
 // BOTTOM OF METADATA

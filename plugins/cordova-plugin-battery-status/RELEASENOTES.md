@@ -7,9 +7,9 @@
 # to you under the Apache License, Version 2.0 (the
 # "License"); you may not use this file except in compliance
 # with the License.  You may obtain a copy of the License at
-# 
+#
 # http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 # Unless required by applicable law or agreed to in writing,
 # software distributed under the License is distributed on an
 # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -20,6 +20,15 @@
 -->
 
 # Release Notes
+
+### 2.0.2 (Apr 12, 2018)
+* [CB-10645](https://issues.apache.org/jira/browse/CB-10645) The battery status handler doesn't reinitialize on **Android** after `window.location.reload()`. Instead of throwing an error, rather remove the status handler and re-initialize.
+
+### 2.0.1 (Dec 27, 2017)
+* [CB-13700](https://issues.apache.org/jira/browse/CB-13700) Fix to allow 2.0.0 version install (#62)
+
+### 2.0.0 (Dec 15, 2017)
+* [CB-13667](https://issues.apache.org/jira/browse/CB-13667): Remove deprecated platforms
 
 ### 1.2.5 (Nov 06, 2017)
 * [CB-13299](https://issues.apache.org/jira/browse/CB-13299) (CI) Fix **Android** builds
