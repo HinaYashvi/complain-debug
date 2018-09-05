@@ -87,18 +87,18 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-media-capture": {
+  "cordova-plugin-call-number": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-media-capture@latest"
+      "id": "cordova-plugin-call-number"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-media": {
+  "cordova-plugin-media-capture": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-media@latest"
+      "id": "cordova-plugin-media-capture@latest"
     },
     "is_top_level": true,
     "variables": {}
@@ -111,18 +111,18 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-file-transfer": {
+  "cordova-plugin-media": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-file-transfer@latest"
+      "id": "cordova-plugin-media@latest"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-call-number": {
+  "cordova-plugin-file-transfer": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-call-number"
+      "id": "cordova-plugin-file-transfer@latest"
     },
     "is_top_level": true,
     "variables": {}
