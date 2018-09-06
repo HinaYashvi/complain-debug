@@ -58,9 +58,17 @@ cordova plugin add cordova-plugin-media
 ## Supported Platforms
 
 - Android
+- BlackBerry 10
 - iOS
+- Windows Phone 7 and 8
+- Tizen
+- Windows 8
 - Windows
 - Browser
+
+## Windows Phone Quirks
+
+- Only one media file can be played back at a time.
 
 ## Media
 
@@ -456,6 +464,10 @@ setTimeout(function() {
 }, 5000);
 ```
 
+### BlackBerry 10 Quirks
+
+- Not supported on BlackBerry OS 5 devices.
+
 ## media.setVolume
 
 Set the volume for an audio file.
@@ -513,6 +525,7 @@ Starts recording an audio file.
 
 - Android
 - iOS
+- Windows Phone 7 and 8
 - Windows
 
 ### Quick Example
@@ -575,6 +588,10 @@ To add this entry into the `info.plist`, you can use the `edit-config` tag in th
 
 - Any subdirectory specified at record time must already exist.
 
+### Tizen Quirks
+
+- Not supported on Tizen devices.
+
 ## media.stop
 
 Stops playing an audio file.
@@ -619,6 +636,7 @@ Stops recording an audio file.
 
 - Android
 - iOS
+- Windows Phone 7 and 8
 - Windows
 
 ### Quick Example
@@ -649,6 +667,10 @@ function recordAudio() {
     }, 10000);
 }
 ```
+
+### Tizen Quirks
+
+- Not supported on Tizen devices.
 
 ## MediaError
 

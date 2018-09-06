@@ -477,8 +477,8 @@ module.exports.metadata =
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-file": "5.0.0",
     "cordova-plugin-file-transfer": "1.7.1",
-    "cordova-plugin-media-capture": "3.0.2",
-    "cordova-plugin-media": "5.0.2"
+    "cordova-plugin-media-capture": "2.0.0",
+    "cordova-plugin-media": "4.0.0"
 }
 // BOTTOM OF METADATA
 });
