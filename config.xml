@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <icon src="icon.png" />
@@ -112,4 +112,5 @@
     <plugin name="cordova-plugin-file" spec="^5.0.0" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <plugin name="cordova-plugin-media-capture" spec="^3.0.0" />
+    <plugin name="cordova-plugin-media" spec="^5.0.0" />
 </widget>
