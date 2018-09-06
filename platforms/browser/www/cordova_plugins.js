@@ -309,12 +309,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-file/www/browser/isChrome.js",
-        "id": "cordova-plugin-file.isChrome",
-        "pluginId": "cordova-plugin-file",
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-file/www/browser/Preparing.js",
         "id": "cordova-plugin-file.Preparing",
         "pluginId": "cordova-plugin-file",
@@ -475,7 +469,7 @@ module.exports.metadata =
     "cordova-plugin-geolocation": "4.0.1",
     "cordova-plugin-camera": "4.0.3",
     "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-file": "6.0.1",
+    "cordova-plugin-file": "4.0.0",
     "cordova-plugin-file-transfer": "1.7.1",
     "cordova-plugin-media-capture": "1.4.3",
     "cordova-plugin-media": "3.0.1"
