@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "displayName": "Complaint Manager",
   "cordova": {
-    "platforms": [],
+    "platforms": [
+      "android"
+    ],
     "plugins": {
       "cordova-plugin-battery-status": {},
       "cordova-plugin-device": {},
@@ -24,6 +26,7 @@
     }
   },
   "dependencies": {
+    "cordova-android": "^7.0.0",
     "cordova-plugin-battery-status": "^2.0.2",
     "cordova-plugin-call-number": "^1.0.1",
     "cordova-plugin-camera": "^4.0.3",
