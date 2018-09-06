@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-media@latest",
-  "_id": "cordova-plugin-media@5.0.2",
+  "_from": "cordova-plugin-media@4.0.0",
+  "_id": "cordova-plugin-media@4.0.0",
   "_inBundle": false,
-  "_integrity": "sha1-M0V2nAfmpGpxyX4btDTazKXI2As=",
+  "_integrity": "sha1-9wgIH48OyzApHWei44FJZx2U8gs=",
   "_location": "/cordova-plugin-media",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-media@latest",
+    "raw": "cordova-plugin-media@4.0.0",
     "name": "cordova-plugin-media",
     "escapedName": "cordova-plugin-media",
-    "rawSpec": "latest",
+    "rawSpec": "4.0.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "4.0.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-media/-/cordova-plugin-media-5.0.2.tgz",
-  "_shasum": "3345769c07e6a46a71c97e1bb434dacca5c8d80b",
-  "_spec": "cordova-plugin-media@latest",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-media/-/cordova-plugin-media-4.0.0.tgz",
+  "_shasum": "f708081f8f0ecb30291d67a2e38149671d94f20b",
+  "_spec": "cordova-plugin-media@4.0.0",
   "_where": "C:\\xampp\\htdocs\\complaint_manager",
   "author": {
     "name": "Apache Software Foundation"
@@ -34,9 +34,15 @@
     "id": "cordova-plugin-media",
     "platforms": [
       "android",
-      "browser",
+      "amazon-fireos",
+      "ubuntu",
       "ios",
-      "windows"
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "tizen"
     ]
   },
   "deprecated": false,
@@ -52,7 +58,7 @@
       "4.0.0": {
         "cordova-android": ">=6.3.0"
       },
-      "6.0.0": {
+      "5.0.0": {
         "cordova": ">100"
       }
     }
@@ -63,9 +69,15 @@
     "media",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-browser",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
     "cordova-ios",
-    "cordova-windows"
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-tizen"
   ],
   "license": "Apache-2.0",
   "name": "cordova-plugin-media",
@@ -78,5 +90,5 @@
     "test": "npm run jshint"
   },
   "types": "./types/index.d.ts",
-  "version": "5.0.2"
+  "version": "4.0.0"
 }

@@ -43,6 +43,9 @@
     "cordova-plugin-compat": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
@@ -50,9 +53,6 @@
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-media": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
-    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     }
   },
