@@ -84,5 +84,6 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 </widget>
