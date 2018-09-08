@@ -18,19 +18,20 @@
       "cordova-plugin-compat": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-file-transfer": {},
-      "cordova-plugin-file": {},
       "cordova-plugin-media": {},
-      "cordova-plugin-media-capture": {}
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-file": {}
     }
   },
   "dependencies": {
+    "cordova-android": "^7.0.0",
     "cordova-plugin-battery-status": "^2.0.2",
     "cordova-plugin-call-number": "^1.0.1",
     "cordova-plugin-camera": "^2.1.1",
     "cordova-plugin-compat": "^1.0.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
-    "cordova-plugin-file": "^6.0.0",
+    "cordova-plugin-file": "^4.0.0",
     "cordova-plugin-file-transfer": "^1.7.1",
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-globalization": "^1.11.0",
