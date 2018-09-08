@@ -1,0 +1,18 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {},
+  "dependent_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-call-number": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    }
+  }
+}
