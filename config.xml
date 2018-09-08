@@ -112,5 +112,5 @@
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <plugin name="cordova-plugin-media" spec="^2.2.0" />
     <plugin name="cordova-plugin-media-capture" spec="^1.2.0" />
-    <plugin name="cordova-plugin-file" spec="^5.0.0" />
+    <plugin name="cordova-plugin-file" spec="^6.0.0" />
 </widget>
