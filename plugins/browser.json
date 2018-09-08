@@ -37,9 +37,6 @@
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
     "cordova-plugin-media": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
@@ -49,13 +46,9 @@
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-compat": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    }
-  },
-  "dependent_plugins": {
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     }
-  }
+  },
+  "dependent_plugins": {}
 }
