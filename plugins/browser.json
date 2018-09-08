@@ -37,10 +37,10 @@
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-camera": {
+    "cordova-plugin-compat": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-compat": {
+    "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-file": {

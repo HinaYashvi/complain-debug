@@ -416,12 +416,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-media-capture/www/helpers.js",
-        "id": "cordova-plugin-media-capture.helpers",
-        "pluginId": "cordova-plugin-media-capture",
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-media-capture/www/capture.js",
         "id": "cordova-plugin-media-capture.capture",
         "pluginId": "cordova-plugin-media-capture",
@@ -473,12 +467,12 @@ module.exports.metadata =
     "cordova-plugin-call-number": "1.0.1",
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-geolocation": "4.0.1",
-    "cordova-plugin-camera": "4.0.3",
-    "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-file": "5.0.0",
-    "cordova-plugin-file-transfer": "1.7.1",
-    "cordova-plugin-media-capture": "3.0.0",
-    "cordova-plugin-media": "5.0.0"
+    "cordova-plugin-compat": "1.0.0",
+    "cordova-plugin-camera": "2.1.1",
+    "cordova-plugin-file": "4.3.1",
+    "cordova-plugin-file-transfer": "1.5.1",
+    "cordova-plugin-media-capture": "1.2.0",
+    "cordova-plugin-media": "2.2.0"
 }
 // BOTTOM OF METADATA
 });
