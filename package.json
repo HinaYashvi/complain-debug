@@ -19,8 +19,8 @@
       "cordova-plugin-camera": {},
       "cordova-plugin-file-transfer": {},
       "cordova-plugin-media-capture": {},
-      "cordova-plugin-media": {},
-      "cordova-plugin-file": {}
+      "cordova-plugin-file": {},
+      "cordova-plugin-media": {}
     }
   },
   "dependencies": {
@@ -35,7 +35,7 @@
     "cordova-plugin-geolocation": "^4.0.1",
     "cordova-plugin-globalization": "^1.11.0",
     "cordova-plugin-inappbrowser": "^3.0.0",
-    "cordova-plugin-media": "^2.2.0",
+    "cordova-plugin-media": "^2.4.1",
     "cordova-plugin-media-capture": "^1.2.0",
     "cordova-plugin-network-information": "^2.0.1",
     "cordova-plugin-vibration": "^3.1.0",
