@@ -12,6 +12,7 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
     <icon src="icon.png" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
@@ -111,6 +112,6 @@
     <plugin name="cordova-plugin-media-capture" spec="^2.0.0" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.0" />
     <plugin name="cordova-plugin-camera" spec="^2.4.1" />
-    <plugin name="cordova-plugin-compat" spec="^1.1.0" />
+    <plugin name="cordova-plugin-compat" spec="^1.2.0" />
     <engine name="android" spec="~7.0.0" />
 </widget>

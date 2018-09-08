@@ -10,9 +10,6 @@
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-compat": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
