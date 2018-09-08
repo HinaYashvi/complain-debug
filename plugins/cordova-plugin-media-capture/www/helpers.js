@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-media-capture.helpers", function(require, exports, module) { /*
+/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -42,4 +42,3 @@ function wrapMediaFiles(pluginResult) {
 module.exports = {
     wrapMediaFiles: wrapMediaFiles
 };
-});
