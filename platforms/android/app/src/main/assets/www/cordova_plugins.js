@@ -378,7 +378,7 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.2",
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-file": "5.0.0",
-  "cordova-plugin-file-transfer": "1.7.0",
+  "cordova-plugin-file-transfer": "1.7.1",
   "cordova-plugin-geolocation": "4.0.1",
   "cordova-plugin-globalization": "1.11.0",
   "cordova-plugin-inappbrowser": "3.0.0",
