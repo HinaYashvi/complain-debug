@@ -13,9 +13,6 @@
     "cordova-plugin-compat": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     }
@@ -31,6 +28,9 @@
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-file": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
     "cordova-plugin-geolocation": {
