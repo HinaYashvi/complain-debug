@@ -20,5 +20,4 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-    <preference name="phonegap-version" value="cli-7.0.1" />
 </widget>
