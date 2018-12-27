@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.complaintmanager" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Complain Manager</name>
+<widget id="com.phonegap.yourcollector" version="1.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Your Collector</name>
     <description>
-        Complain Manager.
+        This is complain manager app in which authorized person can add the complains of people and assigned that complains to relavant person to handle it and collector can see the progress/status of that complains.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Star One Web
     </author>
     <content src="index.html" />
     <icon src="icon.png" />
@@ -18,6 +18,9 @@
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="orientation" value="portrait" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="pgb-builder-version" value="2" />
 </widget>

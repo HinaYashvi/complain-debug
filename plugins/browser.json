@@ -54,6 +54,15 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
     }
   },
   "dependent_plugins": {}

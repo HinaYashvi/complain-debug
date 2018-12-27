@@ -1,11 +1,11 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Complain Manager",
-  "short_name": "Complain Manager",
-  "version": "com.phonegap.complaintmanager",
-  "description": "Complain Manager.",
-  "author": "PhoneGap Team",
+  "name": "Your Collector",
+  "short_name": "Your Collector",
+  "version": "com.phonegap.yourcollector",
+  "description": "This is complain manager app in which authorized person can add the complains of people and assigned that complains to relavant person to handle it and collector can see the progress/status of that complains.",
+  "author": "Star One Web",
   "icons": [
     {
       "src": "icon.png",

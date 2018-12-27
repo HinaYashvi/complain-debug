@@ -1,7 +1,8 @@
 var routes = [
   // Index page
   {
-    path: '/index/',
+    //path: '/index/',
+    path: '/',
     url: './index.html',
     name: 'index',
   },
@@ -28,6 +29,38 @@ var routes = [
     path:'/addComplain/',
     url: './addComplain.html',
   },
+  {
+    path:'/comp_rep/',
+    url: './comp_rep.html',
+  },
+  {
+    path:'/comp_mon_rep/',
+    url: './comp_mon_rep.html',
+  },
+  {
+    path:'/complain_rep_grid/',
+    url: './complain_rep_grid.html',
+  },
+  {
+    path:'/complainmon_rep_grid/',
+    url: './complainmon_rep_grid.html',
+  },
+  { 
+    path:'/imp-comps/',
+    url: './imp-comps.html',
+  },
+  { 
+    path:'/closed-comps/',
+    url: './closed-comps.html',
+  },
+  {
+    path:'/change_pwd/',
+    url: './change_pwd.html',
+  },
+  {
+    path:'/internet/',
+    url: './internet.html',
+  },  
   
   /*{
     path: '/action-sheet/',
