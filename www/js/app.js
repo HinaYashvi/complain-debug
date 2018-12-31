@@ -212,6 +212,8 @@ function upload(){
   var hidd_compid = $("#hidd_compid").val();
   var sess_u_id = window.localStorage.getItem("session_u_id");
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
+	document.writeln(uploadControllerURL);
+	alert(uploadControllerURL);
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
 }
 function onSuccessLoc(position){
