@@ -87,7 +87,7 @@ function onBackKeyDown() {
     $$(".back").click();
   } 
 }
-function getPosition() {
+/*function getPosition() {
    var options = {
       enableHighAccuracy: true,
       maximumAge: 3600000
@@ -132,7 +132,7 @@ function watchPosition() {
    function onError(error) {
       alert('code: '    + error.code    + '\n' +'message: ' + error.message + '\n');
    }
-}
+} */
 function onDeviceReady() { 
   pictureSource = navigator.camera.PictureSourceType;
   destinationType = navigator.camera.DestinationType;  
@@ -372,7 +372,7 @@ $$(document).on('page:init', '.page[data-name="dashboard"]', function (e) {
     dashboardPage();
   },5000);      
   app.preloader.hide();
-  getPosition(); 
+  //getPosition(); 
 });
 function dashboardPage(){
   checkConnection();  
@@ -1389,6 +1389,20 @@ function showIcons(){
   $(".showtwoBlocks").addClass("display-block");
   $(".uploadDiv").removeClass("display-none");
   $(".uploadDiv").addClass("display-block");
+
+  cordova.plugins.diagnostic.isLocationEnabled(function(enabled){ //isLocationEnabled
+  console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
+      if(!enabled){
+        alert("Enabled GPS manually");
+        cordova.plugins.diagnostic.switchToLocationSettings(onRequestSuccess,onRequestFailure);
+         //mainView.loadPage("current-location.html");
+      }else{
+        alert("Location service is ON");
+        //app.router.navigate("/current-location/");
+      }
+  }, function(error){
+    console.error("The following error occurred: "+error);
+  });
 }
 function showUploadbtn(){
   alert("inshowUploadbtn");

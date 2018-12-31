@@ -34,9 +34,6 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "com.phonegap.complaintmanager"
-    },
     "cordova-plugin-media": {
       "PACKAGE_NAME": "com.phonegap.complaintmanager"
     },
@@ -61,7 +58,13 @@
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.phonegap.yourcollector"
     },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
     "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
+    "cordova-plugin-request-location-accuracy": {
       "PACKAGE_NAME": "com.phonegap.yourcollector"
     }
   },

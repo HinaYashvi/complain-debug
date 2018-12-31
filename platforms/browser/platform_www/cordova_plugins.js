@@ -502,7 +502,6 @@ module.exports.metadata =
     "cordova-plugin-vibration": "3.1.0",
     "cordova-plugin-call-number": "1.0.1",
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-geolocation": "4.0.1",
     "cordova-plugin-media": "4.0.0",
     "cordova-plugin-media-capture": "2.0.0",
     "cordova-plugin-file-transfer": "1.7.0",
@@ -511,7 +510,9 @@ module.exports.metadata =
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
-    "cordova.plugins.diagnostic": "4.0.10"
+    "cordova-plugin-geolocation": "2.1.0",
+    "cordova.plugins.diagnostic": "3.0.0",
+    "cordova-plugin-request-location-accuracy": "2.1.0"
 }
 // BOTTOM OF METADATA
 });

@@ -7,7 +7,13 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
     "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.phonegap.yourcollector"
+    },
+    "cordova-plugin-request-location-accuracy": {
       "PACKAGE_NAME": "com.phonegap.yourcollector"
     }
   },
