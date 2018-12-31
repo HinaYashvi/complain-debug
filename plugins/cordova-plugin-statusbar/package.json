@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-statusbar@~2.1.2",
-  "_id": "cordova-plugin-statusbar@2.1.3",
+  "_from": "cordova-plugin-statusbar@2.1.2",
+  "_id": "cordova-plugin-statusbar@2.1.2",
   "_inBundle": false,
-  "_integrity": "sha1-lwRKjK8U1To0cpb2/LFe9c0+q4g=",
+  "_integrity": "sha1-+IAAierbiVJQRqLNQddtq2vh+v0=",
   "_location": "/cordova-plugin-statusbar",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-statusbar@~2.1.2",
+    "raw": "cordova-plugin-statusbar@2.1.2",
     "name": "cordova-plugin-statusbar",
     "escapedName": "cordova-plugin-statusbar",
-    "rawSpec": "~2.1.2",
+    "rawSpec": "2.1.2",
     "saveSpec": null,
-    "fetchSpec": "~2.1.2"
+    "fetchSpec": "2.1.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "http://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.1.3.tgz",
-  "_shasum": "97044a8caf14d53a347296f6fcb15ef5cd3eab88",
-  "_spec": "cordova-plugin-statusbar@~2.1.2",
+  "_resolved": "http://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.1.2.tgz",
+  "_shasum": "f8800089eadb89525046a2cd41d76dab6be1fafd",
+  "_spec": "cordova-plugin-statusbar@2.1.2",
   "_where": "C:\\xampp\\htdocs\\complaint_manager",
   "author": {
     "name": "Apache Software Foundation"
@@ -72,5 +72,5 @@
     "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
     "test": "npm run jshint"
   },
-  "version": "2.1.3"
+  "version": "2.1.2"
 }

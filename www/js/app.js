@@ -1384,7 +1384,7 @@ function UpdateIsseen(comp_no){
     }
   });
 }
-function showIcons(){
+function showIcons(){ 
   $(".showtwoBlocks").removeClass("display-none");
   $(".showtwoBlocks").addClass("display-block");
   $(".uploadDiv").removeClass("display-none");
@@ -1392,6 +1392,7 @@ function showIcons(){
 
   cordova.plugins.diagnostic.isLocationEnabled(function(enabled){ //isLocationEnabled
   console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
+  alert("GPS location is " + (enabled ? "enabled" : "disabled"));
       if(!enabled){
         alert("Enabled GPS manually");
         cordova.plugins.diagnostic.switchToLocationSettings(onRequestSuccess,onRequestFailure);

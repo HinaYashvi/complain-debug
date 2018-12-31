@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-splashscreen@~3.2.1",
-  "_id": "cordova-plugin-splashscreen@3.2.2",
+  "_from": "cordova-plugin-splashscreen@3.2.1",
+  "_id": "cordova-plugin-splashscreen@3.2.1",
   "_inBundle": false,
-  "_integrity": "sha1-1WOL+wi9vJqz59owwhdL5kzwJ7A=",
+  "_integrity": "sha1-cbkUGComjIcSrSsEFbFeUSRbuZs=",
   "_location": "/cordova-plugin-splashscreen",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-splashscreen@~3.2.1",
+    "raw": "cordova-plugin-splashscreen@3.2.1",
     "name": "cordova-plugin-splashscreen",
     "escapedName": "cordova-plugin-splashscreen",
-    "rawSpec": "~3.2.1",
+    "rawSpec": "3.2.1",
     "saveSpec": null,
-    "fetchSpec": "~3.2.1"
+    "fetchSpec": "3.2.1"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "http://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-3.2.2.tgz",
-  "_shasum": "d5638bfb08bdbc9ab3e7da30c2174be64cf027b0",
-  "_spec": "cordova-plugin-splashscreen@~3.2.1",
+  "_resolved": "http://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-3.2.1.tgz",
+  "_shasum": "71b914182a268c8712ad2b0415b15e51245bb99b",
+  "_spec": "cordova-plugin-splashscreen@3.2.1",
   "_where": "C:\\xampp\\htdocs\\complaint_manager",
   "author": {
     "name": "Apache Software Foundation"
@@ -80,5 +80,5 @@
     "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
     "test": "npm run jshint"
   },
-  "version": "3.2.2"
+  "version": "3.2.1"
 }
