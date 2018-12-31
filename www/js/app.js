@@ -202,7 +202,7 @@ function upload(){
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          alert("latitude :: "+latitude+" longitude ::"+longitude); 
-   };
+   }
    function onErrorLoc(error) {
       alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
    }
