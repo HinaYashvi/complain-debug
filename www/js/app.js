@@ -212,12 +212,12 @@ function upload(){
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+Lat+"/"+Long;; 
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
 }
-function onSuccessLoc(){
+function onSuccessLoc(position){
   var longitude = position.coords.longitude;
   var latitude = position.coords.latitude; 
   alert("latitude :: "+latitude+" longitude ::"+longitude);
 }
-function onErrorLoc(){
+function onErrorLoc(error){
   alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
 }
 function win(r) { //console.log("Code = " + r.responseCode);    
