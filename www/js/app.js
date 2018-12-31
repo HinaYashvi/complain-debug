@@ -191,27 +191,13 @@ function upload(){
     alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
   },{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }); 
   alert("latitude :: "+latitude+" longitude ::"+longitude);*/
-  var options = {
-      maximumAge: 3000, 
-      timeout: 5000, 
-      enableHighAccuracy: true
-   },
-   var watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, options);
-
-   function onSuccessLoc(position) {       
-         var longitude = position.coords.longitude;
-         var latitude = position.coords.latitude;
-         alert("latitude :: "+latitude+" longitude ::"+longitude); 
-   }
-   function onErrorLoc(error) {
-      alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
-   }
-  /*var latLong = navigator.geolocation.getCurrentPosition(function(position){
+  
+  var latLong = navigator.geolocation.getCurrentPosition(function(position){
     var longitude = position.coords.longitude;
     var latitude = position.coords.latitude;
   }, function (error){
     alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
-  },{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }); */
+  },{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }); 
   alert("latitude :: "+latitude+" longitude ::"+longitude); 
 	
   var img = document.getElementById('image'); 
