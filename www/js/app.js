@@ -1405,6 +1405,16 @@ function showIcons(){
     console.error("The following error occurred: "+error);
   });
 }
+function onRequestSuccess(success){
+    if(success){
+      console.log("success");
+    }
+}  
+function onRequestFailure(error){
+   if(error){
+     alert(error.message);
+   }
+}
 function showUploadbtn(){
   alert("inshowUploadbtn");
   $(".upldbtnDiv").removeClass("display-none");
