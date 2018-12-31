@@ -1385,11 +1385,6 @@ function UpdateIsseen(comp_no){
   });
 }
 function showIcons(){ 
-  $(".showtwoBlocks").removeClass("display-none");
-  $(".showtwoBlocks").addClass("display-block");
-  $(".uploadDiv").removeClass("display-none");
-  $(".uploadDiv").addClass("display-block");
-
   cordova.plugins.diagnostic.isLocationEnabled(function(enabled){ //isLocationEnabled
   console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
   alert("GPS location is " + (enabled ? "enabled" : "disabled"));
@@ -1403,7 +1398,11 @@ function showIcons(){
       }
   }, function(error){
     console.error("The following error occurred: "+error);
-  });
+  });	
+  $(".showtwoBlocks").removeClass("display-none");
+  $(".showtwoBlocks").addClass("display-block");
+  $(".uploadDiv").removeClass("display-none");
+  $(".uploadDiv").addClass("display-block");
 }
 function onRequestSuccess(success){
     if(success){
