@@ -30,8 +30,8 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <preference name="phonegap-version" value="cli-6.5.0" />
-    <preference name="pgb-builder-version" value="2" />
+    <!--preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="pgb-builder-version" value="2" /-->
 
 
     <plugin name="cordova-plugin-battery-status" spec="~1.2.4" />
@@ -50,8 +50,6 @@
     <plugin name="cordova-plugin-file" spec="~4.3.3" />
     <plugin name="cordova-plugin-statusbar" spec="~2.1.2" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.5.0" />
-
-
     <plugin name="cordova-plugin-geolocation" spec="~2.1.0" />
     <plugin name="cordova.plugins.diagnostic" spec="~3.0.0" />
     <plugin name="cordova-plugin-request-location-accuracy" spec="~2.1.0" />
