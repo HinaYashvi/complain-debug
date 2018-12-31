@@ -184,6 +184,12 @@ function onFail(message) {
   alert('Failed because: ' + message);
 }
 function upload(){   
+  var latLong = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc,{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true });  
+  alert("latLong "+latLong);
+  var splitlatLong = latLong.split("-");
+  var Lat = splitlatLong[0];
+  var Long = splitlatLong[1];
+	
   var img = document.getElementById('image'); 
   app.dialog.preloader('Uploading....');
   var imageURI = img.src;
@@ -203,10 +209,17 @@ function upload(){
   var ft = new FileTransfer();
   var hidd_compid = $("#hidd_compid").val();
   var sess_u_id = window.localStorage.getItem("session_u_id");
-  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id; 
+  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+Lat+"/"+Long;; 
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
 }
-
+function onSuccessLoc(){
+  var longitude = position.coords.longitude;
+  var latitude = position.coords.latitude; 
+  alert("latitude :: "+latitude+" longitude ::"+longitude);
+}
+function onErrorLoc(){
+  alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
+}
 function win(r) { //console.log("Code = " + r.responseCode);    
     var responseCode = r.responseCode;
     if(responseCode==200){
