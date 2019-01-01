@@ -181,7 +181,7 @@ function testLoc(){
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
 } 
 function onSuccessLoc(position){ 
-	//alert("onSuccessLoc function");
+	alert("onSuccessLoc function");
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          //alert("latitude :: "+latitude+" longitude ::"+longitude);  
