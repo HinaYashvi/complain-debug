@@ -236,9 +236,10 @@ function upload(){
 	//document.writeln(uploadControllerURL);
 	//alert(uploadControllerURL);
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true); 
-	getandupdateLatlong(hidd_compid,sess_u_id);
+	// getandupdateLatlong(hidd_compid,sess_u_id);
+  testLoc();
 }
-function getandupdateLatlong(hidd_compid,sess_u_id){
+/* function getandupdateLatlong(hidd_compid,sess_u_id){
   /*var takelatlong = testLoc();
   alert("takelatlong :: "+takelatlong);
   var splitlatLong = takelatlong.split("-");
@@ -263,7 +264,7 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
   },optionslatlong); 
   alert("latitude :: "+latitude+" longitude ::"+longitude);*/
 	
-  var takelatlong = testLoc();
+/*  var takelatlong = testLoc();
   alert("takelatlong :: "+takelatlong);
   var updategeoLocation = base_url+"app_controller/updateLatLongs";
 
@@ -275,7 +276,7 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
       alert(result);      
   }});
 
-}
+} */
 var watchID = '';
 function testLoc(){
   alert("called");
@@ -286,7 +287,7 @@ function testLoc(){
    },
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
    //alert("watchID ::" +watchID);
-   return watchID;
+   //return watchID;
 } 
 function onSuccessLoc(position){ 
       /*alert('Latitude: '          + position.coords.latitude          + '\n' +
@@ -300,7 +301,14 @@ function onSuccessLoc(position){
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          //alert("latitude :: "+latitude+" longitude ::"+longitude); 
-	 return latitude+"-"+longitude;
+	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
+         $.ajax({
+            'type':'POST',
+            url: updategeoLocation, 
+            data:{'Lat':latitude,'Long':longitude},
+            success: function(result){ 
+              alert(result);      
+         }});
 }
 function onErrorLoc(error) {
   alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
