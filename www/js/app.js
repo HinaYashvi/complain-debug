@@ -224,10 +224,12 @@ function upload(){
   }else{
     var sess_u_id = window.localStorage.getItem("session_u_id");
   }
+	
   var takelatlong = testLoc();
   var splitlatLong = takelatlong.split("-");
   var Lat = splitlatLong[0];
   var Long = splitlatLong[1];
+	alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long);
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+Lat+"/"+Long;
   //var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
 	document.writeln(uploadControllerURL);
