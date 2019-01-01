@@ -291,6 +291,7 @@ function testLoc(){
    //return watchID;
 } 
 function onSuccessLoc(position){ 
+	alert("onSuccessLoc function");
       /*alert('Latitude: '          + position.coords.latitude          + '\n' +
          'Longitude: '         + position.coords.longitude         + '\n' +
          'Altitude: '          + position.coords.altitude          + '\n' +
@@ -303,7 +304,7 @@ function onSuccessLoc(position){
          var latitude = position.coords.latitude;
          //alert("latitude :: "+latitude+" longitude ::"+longitude);  
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
-	 var hidd_compid = $("#hidd_compid").val();
+	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
 	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
