@@ -1502,6 +1502,7 @@ function showIcons(){
          //mainView.loadPage("current-location.html");
       }else{
         alert("Location service is ON");
+	testLoc();
         //app.router.navigate("/current-location/");
       }
   }, function(error){
