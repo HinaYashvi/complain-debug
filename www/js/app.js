@@ -219,6 +219,11 @@ function upload(){
   var ft = new FileTransfer();
   var hidd_compid = $("#hidd_compid").val();
   var sess_u_id = window.localStorage.getItem("session_u_id");
+   if(sess_u_id==null){
+    var sess_u_id = window.localStorage.getItem("session_admin_u_id");  
+  }else{
+    var sess_u_id = window.localStorage.getItem("session_u_id");
+  }
   var takelatlong = testLoc();
   var splitlatLong = takelatlong.split("-");
   var Lat = splitlatLong[0];
