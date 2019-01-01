@@ -192,13 +192,13 @@ function upload(){
   },{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }); 
   alert("latitude :: "+latitude+" longitude ::"+longitude);*/
   
-  var latLong = navigator.geolocation.getCurrentPosition(function(position){
+  /*var latLong = navigator.geolocation.getCurrentPosition(function(position){
     var longitude = position.coords.longitude;
     var latitude = position.coords.latitude;
   }, function (error){
     alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
   },{ maximumAge: 3000, timeout: 5000, enableHighAccuracy: true }); 
-  alert("latitude :: "+latitude+" longitude ::"+longitude); 
+  alert("latitude :: "+latitude+" longitude ::"+longitude); */
 	
   var img = document.getElementById('image'); 
   app.dialog.preloader('Uploading....');
@@ -219,17 +219,38 @@ function upload(){
   var ft = new FileTransfer();
   var hidd_compid = $("#hidd_compid").val();
   var sess_u_id = window.localStorage.getItem("session_u_id");
+  testLoc();
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
 	document.writeln(uploadControllerURL);
 	alert(uploadControllerURL);
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
 }
-function onSuccessLoc(position){
-  var longitude = position.coords.longitude;
-  var latitude = position.coords.latitude; 
-  alert("latitude :: "+latitude+" longitude ::"+longitude);
+var watchID = '';
+function testLoc(){
+  alert("called");
+  var options = {
+      maximumAge: 3000, 
+      timeout: 5000, 
+      enableHighAccuracy: true
+   },
+   watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, options);
+   alert("watchID ::" +watchID);
+   return watchID;
 }
-function onErrorLoc(error){
+function onSuccessLoc(position){ 
+      /*alert('Latitude: '          + position.coords.latitude          + '\n' +
+         'Longitude: '         + position.coords.longitude         + '\n' +
+         'Altitude: '          + position.coords.altitude          + '\n' +
+         'Accuracy: '          + position.coords.accuracy          + '\n' +
+         'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+         'Heading: '           + position.coords.heading           + '\n' +
+         'Speed: '             + position.coords.speed             + '\n' +
+         'Timestamp: '         + position.timestamp                + '\n');*/
+         var longitude = position.coords.longitude;
+         var latitude = position.coords.latitude;
+         alert("latitude :: "+latitude+" longitude ::"+longitude); 
+}
+function onErrorLoc(error) {
   alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
 }
 function win(r) { //console.log("Code = " + r.responseCode);    
