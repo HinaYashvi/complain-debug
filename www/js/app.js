@@ -239,9 +239,9 @@ function upload(){
   // alert("lastid "+lastid);
 	// getandupdateLatlong(hidd_compid,sess_u_id);
   alert("getUploads "+getUploads);
-if(getUploads!=undefined){
+//if(getUploads!=undefined){
   testLoc();
-}
+//}
 }
 /* function getandupdateLatlong(hidd_compid,sess_u_id){
   /*var takelatlong = testLoc();
