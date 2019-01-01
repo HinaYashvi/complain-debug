@@ -252,7 +252,7 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
       maximumAge: 3000, 
       timeout: 5000, 
       enableHighAccuracy: true
-  },	
+  };	
   navigator.geolocation.getCurrentPosition(function(position){
     var longitude = position.coords.longitude;
     var latitude = position.coords.latitude;
