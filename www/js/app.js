@@ -304,11 +304,13 @@ function onSuccessLoc(position){
          //alert("latitude :: "+latitude+" longitude ::"+longitude);  
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 var hidd_compid = $("#hidd_compid").val();
+	var lastattch = $("#hidd_attid").val();
+	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
             url: updategeoLocation, 
-            data:{'hidd_compid':hidd_compid,'Lat':latitude,'Long':longitude},
+            data:{'lastattch':lastattch,'Lat':latitude,'Long':longitude},
             success: function(result){ 
               alert(result);      
          }});
