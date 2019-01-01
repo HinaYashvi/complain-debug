@@ -181,14 +181,14 @@ function testLoc(){
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
 } 
 function onSuccessLoc(position){ 
-	//alert("onSuccessLoc function");
+	alert("onSuccessLoc function");
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          //alert("latitude :: "+latitude+" longitude ::"+longitude);  
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
-	//alert("*** lastattch *** "+lastattch);
+	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
