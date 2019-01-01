@@ -303,7 +303,7 @@ function onSuccessLoc(position){
          alert("latitude :: "+latitude+" longitude ::"+longitude); 
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	var hidd_compid = $("#hidd_compid").val();
-         alert("hidd_compid "+hidd_compid);
+         //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
             url: updategeoLocation, 
