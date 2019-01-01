@@ -239,12 +239,12 @@ function upload(){
 var watchID = '';
 function testLoc(){
   alert("called");
-  var options = {
+  var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
       enableHighAccuracy: true
    },
-   watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, options);
+   watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
    alert("watchID ::" +watchID);
    return watchID;
 }
