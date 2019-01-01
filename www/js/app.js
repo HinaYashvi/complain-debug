@@ -242,6 +242,9 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
   var takelatlong = testLoc();
   alert("takelatlong :: "+takelatlong);
   var splitlatLong = takelatlong.split("-");
+  alert("*** "+splitlatLong);
+	var splitlatLong1 = testLoc().split("-");
+	 alert("@@@@@ "+splitlatLong1);
   var Lat = splitlatLong[0];
   var Long = splitlatLong[1];
   alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long);
@@ -265,8 +268,8 @@ function testLoc(){
       enableHighAccuracy: true
    },
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
-   alert("watchID ::" +watchID);
-   return watchID;
+   //alert("watchID ::" +watchID);
+   //return watchID;
 }
 function onSuccessLoc(position){ 
       /*alert('Latitude: '          + position.coords.latitude          + '\n' +
@@ -279,7 +282,7 @@ function onSuccessLoc(position){
          'Timestamp: '         + position.timestamp                + '\n');*/
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
-         alert("latitude :: "+latitude+" longitude ::"+longitude); 
+         //alert("latitude :: "+latitude+" longitude ::"+longitude); 
 	 return latitude+"-"+longitude;
 }
 function onErrorLoc(error) {
