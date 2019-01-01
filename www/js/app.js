@@ -248,19 +248,23 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
   var Lat = splitlatLong[0];
   var Long = splitlatLong[1];
   alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long); */
-  var optionslatlong = {
+  /*var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
       enableHighAccuracy: true
   };	
   navigator.geolocation.getCurrentPosition(function(position){
+	  alert("success");
     var longitude = position.coords.longitude;
     var latitude = position.coords.latitude;
   }, function (error){
+	  alert("error");
     alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
   },optionslatlong); 
-  alert("latitude :: "+latitude+" longitude ::"+longitude);
+  alert("latitude :: "+latitude+" longitude ::"+longitude);*/
 	
+  var takelatlong = testLoc();
+  alert("takelatlong :: "+takelatlong);
   var updategeoLocation = base_url+"app_controller/updateLatLongs";
 
   $.ajax({
@@ -272,7 +276,7 @@ function getandupdateLatlong(hidd_compid,sess_u_id){
   }});
 
 }
-/*var watchID = '';
+var watchID = '';
 function testLoc(){
   alert("called");
   var optionslatlong = {
@@ -282,8 +286,8 @@ function testLoc(){
    },
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
    //alert("watchID ::" +watchID);
-   //return watchID;
-} */
+   return watchID;
+} 
 function onSuccessLoc(position){ 
       /*alert('Latitude: '          + position.coords.latitude          + '\n' +
          'Longitude: '         + position.coords.longitude         + '\n' +
