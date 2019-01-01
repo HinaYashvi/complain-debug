@@ -172,7 +172,7 @@ function upload(){
 
 var watchID = '';
 function testLoc(){
-  //alert("called testLoc");
+  alert("called testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
