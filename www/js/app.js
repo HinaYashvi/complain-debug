@@ -224,18 +224,37 @@ function upload(){
   }else{
     var sess_u_id = window.localStorage.getItem("session_u_id");
   }
- alert("sess_u_id :: "+sess_u_id);	
+ //alert("sess_u_id :: "+sess_u_id);	
+  /*var takelatlong = testLoc();
+  alert("takelatlong :: "+takelatlong);
+  var splitlatLong = takelatlong.split("-");
+  var Lat = splitlatLong[0];
+  var Long = splitlatLong[1];
+	alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long);*/
+  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id;
+  //var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
+	//document.writeln(uploadControllerURL);
+	//alert(uploadControllerURL);
+  ft.upload(imageURI,uploadControllerURL, win, fail, options,true); 
+	getandupdateLatlong(hidd_compid,sess_u_id);
+}
+function getandupdateLatlong(hidd_compid,sess_u_id){
   var takelatlong = testLoc();
   alert("takelatlong :: "+takelatlong);
   var splitlatLong = takelatlong.split("-");
   var Lat = splitlatLong[0];
   var Long = splitlatLong[1];
-	alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long);
-  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+Lat+"/"+Long;
-  //var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
-	document.writeln(uploadControllerURL);
-	alert(uploadControllerURL);
-  ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
+  alert("hidd_compid :: "+hidd_compid+" sess_u_id :: "+sess_u_id+" Lat :: "+Lat+" Long:: "+Long);
+  var updategeoLocation = base_url+"app_controller/updateLatLongs/";
+
+  $.ajax({
+    'type':'POST',
+    url: updategeoLocation, 
+    data:{'hidd_compid':hidd_compid,'sess_u_id':sess_u_id,'Lat':Lat,'Long':Long},
+    success: function(result){ 
+      alert(result);      
+  }});
+
 }
 var watchID = '';
 function testLoc(){
