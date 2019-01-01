@@ -283,7 +283,7 @@ function upload(){
 } */
 var watchID = '';
 function testLoc(){
-  //alert("called testLoc");
+  alert("called testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
@@ -294,7 +294,7 @@ function testLoc(){
    //return watchID;
 } 
 function onSuccessLoc(position){ 
-	//alert("onSuccessLoc function");
+	alert("onSuccessLoc function");
       /*alert('Latitude: '          + position.coords.latitude          + '\n' +
          'Longitude: '         + position.coords.longitude         + '\n' +
          'Altitude: '          + position.coords.altitude          + '\n' +
@@ -309,7 +309,7 @@ function onSuccessLoc(position){
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
-	//alert("*** lastattch *** "+lastattch);
+	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
@@ -329,7 +329,7 @@ function win(r) { //console.log("Code = " + r.responseCode);
       app.dialog.close();
     }
     var last_attid=r.response;
-    //alert("last_attid :: "+last_attid);
+    alert("last_attid :: "+last_attid);
     $("#hidd_attid").val(last_attid);
     //console.log("Response = " + r.response);
     //console.log("Sent = " + r.bytesSent);
