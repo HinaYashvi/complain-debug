@@ -235,7 +235,8 @@ function upload(){
   //var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
 	//document.writeln(uploadControllerURL);
 	//alert(uploadControllerURL);
-  ft.upload(imageURI,uploadControllerURL, win, fail, options,true); 
+  var lastid = ft.upload(imageURI,uploadControllerURL, win, fail, options,true);
+	alert("lastid "+lastid);
 	// getandupdateLatlong(hidd_compid,sess_u_id);
   testLoc();
 }
