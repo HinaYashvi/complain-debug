@@ -224,8 +224,9 @@ function upload(){
   }else{
     var sess_u_id = window.localStorage.getItem("session_u_id");
   }
-	
+ alert("sess_u_id :: "+sess_u_id);	
   var takelatlong = testLoc();
+  alert("takelatlong :: "+takelatlong);
   var splitlatLong = takelatlong.split("-");
   var Lat = splitlatLong[0];
   var Long = splitlatLong[1];
