@@ -188,14 +188,14 @@ function onSuccessLoc(position){
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
-	//alert("*** lastattch *** "+lastattch);
+	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
             url: updategeoLocation, 
             data:{'lastattch':lastattch,'Lat':latitude,'Long':longitude},
             success: function(result){ 
-              alert(result);      
+              //alert(result);      
          }});
 }
 function onErrorLoc(error) {
@@ -208,7 +208,7 @@ function win(r) { //console.log("Code = " + r.responseCode);
       app.dialog.close();
     }
     var last_attid=r.response;
-    alert("last_attid :: "+last_attid);
+    //alert("last_attid :: "+last_attid);
     $("#hidd_attid").val(last_attid);
     //console.log("Response = " + r.response);
     //console.log("Sent = " + r.bytesSent);
