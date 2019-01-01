@@ -219,8 +219,12 @@ function upload(){
   var ft = new FileTransfer();
   var hidd_compid = $("#hidd_compid").val();
   var sess_u_id = window.localStorage.getItem("session_u_id");
-  testLoc();
-  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
+  var takelatlong = testLoc();
+  var splitlatLong = takelatlong.split("-");
+  var Lat = splitlatLong[0];
+  var Long = splitlatLong[1];
+  var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+Lat+"/"+Long;
+  //var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id+"/"+latitude+"/"+longitude;
 	document.writeln(uploadControllerURL);
 	alert(uploadControllerURL);
   ft.upload(imageURI,uploadControllerURL, win, fail, options,true);   
@@ -249,6 +253,7 @@ function onSuccessLoc(position){
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          alert("latitude :: "+latitude+" longitude ::"+longitude); 
+	 return latitude+"-"+longitude;
 }
 function onErrorLoc(error) {
   alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
