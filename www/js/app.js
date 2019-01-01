@@ -238,7 +238,7 @@ function upload(){
   var getUploads = ft.upload(imageURI,uploadControllerURL, win, fail, options,true);
   // alert("lastid "+lastid);
 	// getandupdateLatlong(hidd_compid,sess_u_id);
-  //alert("getUploads "+getUploads);
+  alert("getUploads "+getUploads);
 if(getUploads!=undefined){
   testLoc();
 }
@@ -283,7 +283,7 @@ if(getUploads!=undefined){
 } */
 var watchID = '';
 function testLoc(){
-  //alert("called");
+  alert("called testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
