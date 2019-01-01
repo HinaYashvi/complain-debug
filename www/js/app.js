@@ -300,12 +300,14 @@ function onSuccessLoc(position){
          'Timestamp: '         + position.timestamp                + '\n');*/
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
-         //alert("latitude :: "+latitude+" longitude ::"+longitude); 
+         alert("latitude :: "+latitude+" longitude ::"+longitude); 
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
+	var hidd_compid = $("#hidd_compid").val();
+         alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
             url: updategeoLocation, 
-            data:{'Lat':latitude,'Long':longitude},
+            data:{'hidd_compid':hidd_compid,'Lat':latitude,'Long':longitude},
             success: function(result){ 
               alert(result);      
          }});
