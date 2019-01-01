@@ -238,8 +238,10 @@ function upload(){
   var getUploads = ft.upload(imageURI,uploadControllerURL, win, fail, options,true);
   // alert("lastid "+lastid);
 	// getandupdateLatlong(hidd_compid,sess_u_id);
-	alert("getUploads "+getUploads);
+  //alert("getUploads "+getUploads);
+if(getUploads!=undefined){
   testLoc();
+}
 }
 /* function getandupdateLatlong(hidd_compid,sess_u_id){
   /*var takelatlong = testLoc();
