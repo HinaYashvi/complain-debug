@@ -166,13 +166,13 @@ function upload(){
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id;
   var getUploads = ft.upload(imageURI,uploadControllerURL, win, fail, options,true);
  // getandupdateLatlong(hidd_compid,sess_u_id);
-  //alert("getUploads "+getUploads);  
+  alert("getUploads "+getUploads);  
   testLoc();
 }
 
 var watchID = '';
 function testLoc(){
-  //alert("called testLoc");
+  alert("called testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
