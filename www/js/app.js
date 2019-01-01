@@ -316,7 +316,8 @@ function onSuccessLoc(position){
 function onErrorLoc(error) {
   alert('code: '    + error.code    + '\n' + 'message: ' + error.message + '\n');
 }
-function win(r) { //console.log("Code = " + r.responseCode);    
+function win(r) { //console.log("Code = " + r.responseCode);  
+	alert(r); 
     var responseCode = r.responseCode;
     if(responseCode==200){
       app.dialog.alert("Upload Done.");      
