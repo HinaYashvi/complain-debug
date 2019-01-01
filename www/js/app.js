@@ -1502,7 +1502,7 @@ function showIcons(){
          //mainView.loadPage("current-location.html");
       }else{
         alert("Location service is ON");
-	testLoc();
+	//testLoc();
         //app.router.navigate("/current-location/");
       }
   }, function(error){
@@ -1524,7 +1524,7 @@ function onRequestFailure(error){
    }
 }
 function showUploadbtn(){
-  alert("inshowUploadbtn");
+  //alert("inshowUploadbtn");
   $(".upldbtnDiv").removeClass("display-none");
   $(".upldbtnDiv").addClass("display-block");
   $("#upldbtn").removeClass("display-none");
