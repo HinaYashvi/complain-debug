@@ -188,7 +188,7 @@ function onSuccessLoc(position){
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
-	//alert("*** lastattch *** "+lastattch);
+	alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
 	alert("latitude :: "+latitude+" longitude ::"+longitude);  
          $.ajax({
