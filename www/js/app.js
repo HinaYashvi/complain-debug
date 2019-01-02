@@ -172,7 +172,7 @@ function upload(){
 
 var watchID = '';
 function testLoc(){
-  alert("called testLoc");
+  alert("in testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
@@ -208,7 +208,7 @@ function win(r) { //console.log("Code = " + r.responseCode);
       app.dialog.close();
     }
     var last_attid=r.response;
-    //alert("last_attid :: "+last_attid);
+    alert("last_attid :: "+last_attid);
     $("#hidd_attid").val(last_attid);
     //console.log("Response = " + r.response);
     //console.log("Sent = " + r.bytesSent);
