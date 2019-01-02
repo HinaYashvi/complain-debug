@@ -190,6 +190,7 @@ function onSuccessLoc(position){
 	var lastattch = $("#hidd_attid").val();
 	//alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
+	alert("latitude :: "+latitude+" longitude ::"+longitude);  
          $.ajax({
             'type':'POST',
             url: updategeoLocation, 
