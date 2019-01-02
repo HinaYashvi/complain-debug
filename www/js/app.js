@@ -166,13 +166,13 @@ function upload(){
   var uploadControllerURL = base_url+"app_controller/photoupload/"+hidd_compid+"/"+sess_u_id;
   var getUploads = ft.upload(imageURI,uploadControllerURL, win, fail, options,true);
  // getandupdateLatlong(hidd_compid,sess_u_id);
-  alert("getUploads "+getUploads);  
+  //alert("getUploads "+getUploads);  
   testLoc();
 }
 
 var watchID = '';
 function testLoc(){
-  alert("in testLoc");
+  //alert("in testLoc");
   var optionslatlong = {
       maximumAge: 3000, 
       timeout: 5000, 
@@ -181,14 +181,14 @@ function testLoc(){
    watchID = navigator.geolocation.getCurrentPosition(onSuccessLoc, onErrorLoc, optionslatlong);
 } 
 function onSuccessLoc(position){ 
-	alert("onSuccessLoc function");
+	//alert("onSuccessLoc function");
          var longitude = position.coords.longitude;
          var latitude = position.coords.latitude;
          //alert("latitude :: "+latitude+" longitude ::"+longitude);  
 	 var updategeoLocation = base_url+"app_controller/updateLatLongs";
 	 //var hidd_compid = $("#hidd_compid").val();
 	var lastattch = $("#hidd_attid").val();
-	alert("*** lastattch *** "+lastattch);
+	//alert("*** lastattch *** "+lastattch);
          //alert("hidd_compid "+hidd_compid);
          $.ajax({
             'type':'POST',
@@ -208,7 +208,7 @@ function win(r) { //console.log("Code = " + r.responseCode);
       app.dialog.close();
     }
     var last_attid=r.response;
-    alert("last_attid :: "+last_attid);
+    //alert("last_attid :: "+last_attid);
     $("#hidd_attid").val(last_attid);
     //console.log("Response = " + r.response);
     //console.log("Sent = " + r.bytesSent);
