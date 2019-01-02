@@ -196,6 +196,7 @@ function onSuccessLoc(position){
             data:{'lastattch':lastattch,'Lat':latitude,'Long':longitude},
             success: function(result){ 
               //alert(result);      
+	      $("#hidd_attid").val('');
          }});
 }
 function onErrorLoc(error) {
